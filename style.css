@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+.container{
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+h1{
+    cursor: pointer;
+    font-family: fantasy;
+}
+.top_header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    line-height: 100px; 
+}
+nav span{
+    margin-left: 30px;
+    cursor: pointer;
+    
+}
+nav span:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    position:relative;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 30px;
+    cursor: pointer;   
+}
+.palitra{
+    width: 500px;
+    height: 50px;
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+    display: none;
+    justify-content: space-around;
+    
+}
+.colorItem{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#pink{
+    background-color: pink;
+}
+#orange{
+    background-color: orange;
+}
